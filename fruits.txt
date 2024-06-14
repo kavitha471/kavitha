@@ -1,0 +1,418 @@
+<link rel="stylesheet" href="kavitha.css">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet"href="Style.css">
+
+</head>
+<body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+<nav class="navbar navbar-expand-sm bg-light fixed-top">
+<div class="container-fluid brand" style="padding: 0px 0px 0px 0px;">
+<a class="navbar-brand"href="#"><img src="f.jpg"style="height:50px;width:50px" class="rounded-pill">COOLING </a>
+
+<ul class="navbar-nav">
+<li class="item" active><a class="nav-link"href="#">HOME</a></li>
+<li class="item"><a class="nav-link"href="#abouts">ABOUT</a></li>
+<li class="item"><a class="nav-link"href="#menu">MENU</a></li>
+
+<li class="item"><a class="nav-link"href="#products">GALLERY</a></li>
+<li class="item"><a class="nav-link"href="#customers">CUSTOMERS</a></li>
+<li class="item"><a class="nav-link"href="#contact">CONTACT</a></li>
+<form class="d-flex">
+<input type="form-control" type="text" placeholder="search">
+<button class="btn btn-secondary" type="button">search</button>
+</form>
+</ul>
+</div>
+</nav>
+
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+<!-- Indicators/dots -->
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+</div>
+
+<!-- The slideshow/carousel -->
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="be.jpeg"style="margin-left:30px;margin-top:20px;">
+ <p> Potential Health Benefits of Beet Juice
+Regularly drinking beet juice has been found to support healthy blood pressure levels.</p>
+
+</div>
+<div class="carousel-item">
+<img src="co.jpeg"style="margin-left:30px;margin-top:20px">
+ <p>Carrot Juice Recipes
+Carrot juice is a nutritious beverage enjoyed on its own or as part of a recipe</p>
+</div>
+<div class="carousel-item">
+<img src="to.jpeg"style="margin-left:30px;margin-top:20px">
+ <p>Antioxidants
+Tomato juice offers the powerful antioxidants lycopene and beta-carotene, which have been shown to support healthy cells.</P>
+</div>
+</div>
+
+
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+<span class="carousel-control-next-icon"></span>
+</button>
+</div>
+
+
+
+
+ <section id="abouts">
+
+<div class="container-fluid max-width-container">
+<div class="about rounded-pill">
+ABOUT
+</div>
+
+
+          <div class="row"> 
+
+ <div class="col-lg-5 align-items-stretch video-box ">
+              <img src="j1.jpeg">
+            </div>
+
+            <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+              <div>
+
+                <h3>KULU KULU <strong>Juice  Shop</strong></h3>
+
+               <p class="para">
+
+Soft drinks are the most widely used beverages in the world. Basically the word soft drinks means any drink which is non alcoholic in nature. Most of the soft drinks found in the market are drinks that have almost no alcohol content in it<br>
+<br>
+                
+Soft drink, any of a class of nonalcoholic beverages, usually but not necessarily carbonated, normally containing a natural or artificial sweetening agent, edible acids, natural or artificial flavours, and sometimes juice. 
+</p>
+                <p >RECIPIES :</p>
+                <ul  style="
+    padding-left: 40px;
+    color: #A03232;
+">
+                
+                  <li style="list-style-type:square">Strawberry and orange spritz</li>
+                  <li style="list-style-type:square">Pomegranate, vodka and violet granita</li>
+                  <li style="list-style-type:square">Orange and basil Pimms</li>
+  <li style="list-style-type:square">Rhubarb spritz</li>
+  <li style="list-style-type:square">Grilled pineapple mojitos.</li>
+
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+<section id="menu">
+<div class="container-fluid max-width-container">
+<div class="menu rounded-pill">
+MENUS
+</div>
+
+<div class="menu-container">
+<div class="box">
+<img src="ta.jpeg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>Tart Cherry Juice</h3>
+
+</div>
+<div class="box">
+<img src="gr.jpeg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>Grapefruit Juice</h3>
+
+</div>
+<div class="box">
+<img src="cr.jpeg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>Cranberry Juice</h3>
+
+</div>
+<div class="box">
+<img src="pi.jpg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>pineapple juice</h3>
+
+</div>
+<div class="box">
+<img src="fa.jpg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>falooda</h3>
+
+</div>
+<div class="box">
+<img src="s.jpg"style="width:230;height:150;margin:20px 20px;border-radius:20px">
+<h3>Mixed Juice</h3>
+
+</div>
+
+
+
+
+
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="products">
+<div class="container-fluid max-width-container">
+  <div class="gallery rounded-pill">
+GALLERY
+</div>
+
+<div class="heading">
+<h2 style="margin-top: 30px;">our popular products</h2>
+</div>
+<div class="products-container">
+<div class="box">
+<img src="co.webp" style="height:200px;width:200px;border-radius:30px;margin:20px 50px">
+<h3>coconut drinks</h3>
+
+<p>$50</p>
+
+</div>
+<div class="box">
+<img src="wa.webp"style="height:200px;width:200px;border-radius:30px;margin:20px 50px">
+<h3>Watermelon Juice</h3>
+
+<p>$100</p>
+
+
+</div>
+<div class="box">
+<img src="st.jpg"style="border-radius:30px;height:200px;width:200px;margin:20px 50px">
+<h3>Raspberry Juice</h3>
+
+<p>$190</p>
+
+
+</div>
+
+<div class="box">
+<img src="ap.jpg"style="height:200px;width:200px;border-radius:30px;margin:20px 50px">
+<h3>Apple Juice</h3>
+
+<p>$70</p>
+
+
+</div>
+<div class="box">
+<img src="ty.jpg"style="height:200px;width:200px;border-radius:30px;margin:20px 50px">
+<h3>Kale </h3>
+
+<p>$270</p>
+
+
+</div>
+
+
+
+<div class="box">
+<img src="ki.jpg"style="height:200px;width:200px;border-radius:30px;margin:20px 50px">
+<h3>
+KiWi Juice</h3>
+
+<p>$130</p>
+
+</div>
+
+
+
+
+
+</div> 
+</section>
+<section id="customers">
+  <div class="container-fluid max-width-container">
+    <div class="customer rounded-pill">
+CUSTOMERS
+</div>
+<div class="heading">
+<h2 style="margin-top: 30px;">our customers</h2>
+</div>
+<dic class="customers-container">
+<div class="box">
+<p>Great JUICE is just one important aspect of a quality Juice shop. Going to your favorite shop should be it's own unique experience</p>
+<h2>Piyanka mongia</h2>
+<img src="g.jpg">
+</div>
+<div class="box">
+
+<p>A cafe is a juice shop, where juice is served.The service was wonderful. Our waiter was so attentive and accommodating. </p>
+<h2>Angelina Jolie</h2>
+<img src="g1.jpg">
+</div>
+
+<div class="box">
+
+<p>Juice aroma descriptors include flowery, nutty, smoky, and herby, while taste descriptors include acidity, bitterness</p>
+<h2>Arihfa khan</h2>
+<img src="a.jpg">
+</div>
+</div>
+</section>
+
+
+<section id="contact">
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+<!-- Section: Social media -->
+<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+<!-- Left -->
+<div class="me-5 d-none d-lg-block">
+<span>Get connected with us on social networks:</span>
+</div>
+<!-- Left -->
+
+<!-- Right -->
+<div>
+<a href="" class="me-4 text-reset">
+<i class="fab fa-facebook-f"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fab fa-twitter"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fab fa-google"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="" class="me-4 text-reset">
+<i class="fab fa-linkedin"></i>
+</a>
+<a href="" class="me-4 text-reset">
+<i class="fab fa-github"></i>
+</a>
+</div>
+<!-- Right -->
+</section>
+<!-- Section: Social media -->
+
+<!-- Section: Links  -->
+<section class="">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+<!-- Grid column -->
+<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+<!-- Content -->
+<h6 class="text-uppercase fw-bold mb-4">
+<i class="fas fa-gem me-3"></i>Company name
+</h6>
+<p>
+Here you can use rows and columns to organize your footer content. Lorem ipsum
+dolor sit amet, consectetur adipisicing elit.
+</p>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+<!-- Links -->
+<h6 class="text-uppercase fw-bold mb-4">
+Products
+</h6>
+<p>
+<a href="#!" class="text-reset">Angular</a>
+</p>
+<p>
+<a href="#!" class="text-reset">React</a>
+</p>
+<p>
+<a href="#!" class="text-reset">Vue</a>
+</p>
+<p>
+<a href="#!" class="text-reset">Laravel</a>
+</p>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+<!-- Links -->
+<h6 class="text-uppercase fw-bold mb-4">
+Useful links
+</h6>
+<p>
+<a href="#!" class="text-reset">About</a>
+</p>
+<p>
+<a href="#!" class="text-reset">Menu</a>
+</p>
+<p>
+<a href="#!" class="text-reset">Gallery</a>
+</p>
+<p>
+<a href="#!" class="text-reset">Customer</a>
+</p>
+<p>
+<a href="#!" class="text-reset">contact</a>
+</p>
+</div>
+<!-- Grid column -->
+
+<!-- Grid column -->
+<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+<!-- Links -->
+<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+<p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+<p>
+<i class="fas fa-envelope me-3"></i>
+info@example.com
+</p>
+<p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+<p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+</div>
+<!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+© 2021 Copyright:
+<a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+</section>
+</body>
+<html>
+    
+    
+    
